@@ -31,6 +31,17 @@
             <url>http://repourl/repository/maven-releases/</url>
         </repository>
     </distributionManagement>     -->
+
+	<distributionManagement>
+        <repository>
+            <id>anyid</id>
+            <url>http://repourl/repository/maven-releases/</url>
+        </repository>
+		<snapshotRepository>
+            <id>anyid</id>
+            <url>http://repourl/repository/maven-releases/</url>
+        </snapshotRepository>
+    </distributionManagement>
 	
 	<dependencies>
 		<dependency>

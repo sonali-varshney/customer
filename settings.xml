@@ -3,16 +3,16 @@
   <server>
     <id>anyid</id>
     <username>aws</username>
-    <password></password>
+    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
 <settings>
 <!-- for downloading dependencies from AWS CodeArtifact,  add mirrors section -->
 <mirrors>
   <mirror>
     <id>anyid<id>
-    <url></url>
+    <name>anyid</name>
+    <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
     <mirrorOf>*<mirrorOf>
-    <name></name>
   </mirror>
 </mirrors>
 

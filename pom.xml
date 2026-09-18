@@ -35,11 +35,11 @@
 	<distributionManagement>
         <repository>
             <id>anyid</id>
-            <url>http://repourl/repository/maven-releases/</url>
+            <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
         </repository>
 		<snapshotRepository>
             <id>anyid</id>
-            <url>http://repourl/repository/maven-releases/</url>
+            <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
         </snapshotRepository>
     </distributionManagement>
 	

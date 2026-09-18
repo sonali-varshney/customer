@@ -1,7 +1,7 @@
 <!-- you need to configure your Maven settings.xml file with the appropriate server credentials -->
 <settings>
   <server>
-    <id>anyid</id>
+    <id>sonalidomain-sonalirepo</id>
     <username>aws</username>
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
@@ -23,7 +23,7 @@
 <!-- for downloading dependencies from AWS CodeArtifact,  add mirrors section -->
   <mirrors>
     <mirror>
-      <id>anyid</id>
+      <id>sonalidomain-sonalirepo</id>
       <name>anyid</name>
       <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
       <mirrorOf>*</mirrorOf>

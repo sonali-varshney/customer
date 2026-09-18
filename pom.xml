@@ -32,7 +32,7 @@
         </repository>
     </distributionManagement>     -->
 
-	<distributionManagement>
+	<!-- <distributionManagement>
         <repository>
             <id>anyid</id>
             <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
@@ -41,7 +41,7 @@
             <id>anyid</id>
             <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement> -->
 	
 	<dependencies>
 		<dependency>

@@ -24,7 +24,7 @@
   <mirrors>
     <mirror>
       <id>sonalidomain-sonalirepo</id>
-      <name>anyid</name>
+      <name>sonalidomain-sonalirepo</name>
       <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>

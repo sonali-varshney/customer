@@ -6,7 +6,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.6.1</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> <!-- lookup parent from repository -->fd
 	</parent>
 	
 	<groupId>com.naveen</groupId>
@@ -32,16 +32,16 @@
         </repository>
     </distributionManagement>     -->
 
-	<!-- <distributionManagement>
+	<distributionManagement>
         <repository>
-            <id>anyid</id>
+            <id>sonalidomain-sonalirepo</id>
             <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
         </repository>
 		<snapshotRepository>
-            <id>anyid</id>
+            <id>sonalidomain-sonalirepo</id>
             <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
         </snapshotRepository>
-    </distributionManagement> -->
+    </distributionManagement>
 	
 	<dependencies>
 		<dependency>

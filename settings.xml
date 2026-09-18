@@ -6,6 +6,20 @@
     <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
   </server>
 
+  <profiles>
+    <profile>
+      <id>sonalidomain-sonalirepo</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <repositories>
+        <repository>
+          <id>sonalidomain-sonalirepo</id>
+          <url>https://sonalidomain-369558868206.d.codeartifact.us-east-1.amazonaws.com/maven/sonalirepo/</url>
+        </repository>
+      </repositories>
+    </profile>
+  </profiles>
 <!-- for downloading dependencies from AWS CodeArtifact,  add mirrors section -->
   <mirrors>
     <mirror>

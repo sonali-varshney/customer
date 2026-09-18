@@ -1,10 +1,12 @@
 <!-- you need to configure your Maven settings.xml file with the appropriate server credentials -->
 <settings>
-  <server>
-    <id>sonalidomain-sonalirepo</id>
-    <username>aws</username>
-    <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
-  </server>
+  <servers>
+    <server>
+      <id>sonalidomain-sonalirepo</id>
+      <username>aws</username>
+      <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
+    </server>
+  </servers>
 
   <profiles>
     <profile>
